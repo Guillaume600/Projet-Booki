@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Site Booki</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style_desktop.css" />
+
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/Booki.png" alt="logo booki ">
+        <nav>
+            <ul class="header">
+                <li>Hébergements</li>
+                <li class="affmobile">Activités</li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="premier">
+        Trouvez votre hébergement pour des vacances de rêve
+    </h1>
+    <h3>En plein centre ville ou en pleine nature</h2>
+
+        <form method="post" action="hébergements.php">
+            <label class="invisible">Hébergements</label>
+            <i class="fa-solid fa-location-dot"></i>
+            <input class="toolbar1" type="text" name="Rechercher" id="Rechercher" placeholder="Marseille, France" />
+            <input class="submit" type="submit" value="Rechercher" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="partiefiltre">
+            <h2>Filtres</h2>
+            <div class="listefiltre">
+                <div class="eco">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                    <input class="button" type="button" value="Économique" />
+                </div>
+                <div class="familial">
+                    <i class="fa-solid fa-child"></i>
+                    <input class="button" type="button" value="Familial" />
+                </div>
+                <div class="romantique">
+                    <i class="fa-solid fa-heart"></i>
+                    <input class="button" type="button" value="Romantique" />
+                </div>
+                <div class="animaux">
+                    <i class="fa-solid fa-dog"></i>
+                    <input class="button" type="button" value="Animaux autorisés" />
+                </div>
+            </div>
+        </div>
+
+
+        <main></main>
+
+        <footer></footer>
+</body>
+
+</html>
